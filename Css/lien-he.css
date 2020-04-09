@@ -1,0 +1,171 @@
+/*Header*/
+.header {
+    position: relative;
+}
+
+.header-tieu-de {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header img {
+    width: 100%;
+}
+/*Menu*/
+.navbar.menu {
+  background-color: #d93838;
+  justify-content: unset;
+  padding: 0px 0 0px 0px;
+  /* position: relative; */
+  /* display: inline-block; */
+}
+
+svg.bi.bi-house-door-fill {
+    width: 1.6em;
+}
+
+.dropbtn {
+  padding:0px 20px 0px 45px;
+  font-size: 16px;
+  border: none;
+  background-color: #d93838;
+  font-weight: 600;
+}
+
+button.dropbtn a{
+  color: white;
+  background-color: #d93838;
+}
+
+button.dropbtn a:hover {
+    color: #fee682;
+    text-decoration: none;
+}
+
+button.dropbtn:hover, button.dropbtn:active, button.dropbtn:focus {
+  color: #fee682;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+ display: none; 
+ position: absolute;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropbtn a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: aliceblue;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.dropbtn a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #fee682;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.dropbtn a:hover:before {
+  left: 0;
+  right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Form lien he*/
+form.needs-validation {
+    width: 48%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+form.needs-validation label {
+    font-weight: 600;
+}
+
+.col-12:nth-child(2) {
+    margin-top: 1%;
+}
+
+form.needs-validation button {
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+/*footer*/
+.footer {
+  background: url(../Image/anh5.jpg) 0 0 repeat;
+  color: floralwhite;
+  position: relative;
+  height: 140px;
+}
+
+.xa-hoi-lien-ket {
+  position: absolute;
+  left: 79.8%;
+  top: 20%;
+}
+
+.xa-hoi-lien-ket a {
+  color: floralwhite;
+}
+
+img.facebook {
+  width: 7%;
+}
+
+img.youtube {
+  width: 22%;
+}
+
+.dia-chi-lien-he {
+  position: absolute;
+  top: 17%;
+  left: 14%;
+  line-height: 2;
+}
+
+.xa-hoi-lien-ket a:hover {
+  text-decoration: none;
+}
+
+.logo img {
+  width: 50%;
+  border-radius: 70px;
+}
+
+.logo {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+}
